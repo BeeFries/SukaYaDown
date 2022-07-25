@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;/*Centering button*/
+}
+
+.left_side{
+    margin-left: 25px;
+    height: 90%;
+    inline-size: 450px; /*text wrapping(it's like flexbox size) */
+}
+
+.right_side{
+    width: 840px;
+    height: 90%;
+}
+
+p{  
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-size: larger;
+    font-style: italic;
+    font-weight:100;
+}
+
+#first{
+   text-align: center;
+}
+
+#MoreInfo{
+    text-decoration: none;
+}
+
+.button1{
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    text-decoration:black;
+    font-weight: bold;
+    background-color: #7fff00;
+}
+
+ul{
+  /* word-spacing: normal; */
+  list-style-type: none;
+  margin: 0;/*Set margin and paddng = 0 to */
+  padding: 0;/*ignore browser default settings*/
+  margin-top: 10px;
+  margin-left: 20px;
+  overflow: hidden;/*not overflowed list*/
+}
+
+li {
+    float: left;
+  }
+  
+a{
+    display:block;
+    /* margin-right: 20px; */
+    padding-right: 8px;
+    background-color:none;
+    text-decoration: none;
+  }
+
+  .menubar{
+    display: flex;
+    position:relative;
+    height: 50px;
+    width: 100%;
+    background-color: #0b142c;
+  }
